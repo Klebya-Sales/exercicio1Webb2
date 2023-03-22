@@ -24,6 +24,7 @@ btn.onclick = () => {
         iconeRemover.classList.add("icone2");
         iconeRemover.setAttribute("name", "close-circle-outline");
         itemLista.classList.add("criado");
+        // Removendo item da lista
         iconeRemover.onclick = () =>{
           itemLista.remove(texto);
         }
